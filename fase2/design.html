@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
@@ -16,20 +17,31 @@
             <li>Inicio</li>
             <li>Temas
                <ul>
-                   <li>Tema 1</li>
-                   <li>Tema 2</li>
+                   <li>Tema 1: Etiquetas Básicas de HTML, atributos y valores</li>
+                   <li>Tema 2: Sintaxis y Selectores CSS, Interacción Humano Ordenador</li>
+                   <li>Tema 3: Etiquetas semánticas, CSS Grid</li>
+                   <li>Tema 4: Flex Box, Listas y enlaces </li>
+                   <li>Tema 5: Hojas de Estilo en Cascada CSS, Frameworks CSS</li>
                </ul> 
             </li>
             <li>Recursos Digitales
                 <ul>
                     <li>Recurso 1</li>
                     <li>Recurso 2</li>
+                    <li>Recurso 3</li>
+                    <li>Recurso 4</li>
+                    <li>Recurso 5</li>
+
                 </ul>
             </li>
             <li>Aprendizaje
                 <ul>
                     <li>Actividad 1</li>
                     <li>Actividad 2</li>
+                    <li>Actividad 3</li>
+                    <li>Actividad 4</li>
+                    <li>Actividad 5</li>
+
                 </ul>
             </li>
             <li>Acerca de</li>
@@ -41,30 +53,80 @@
 <main>
     <section>
        <h4>Propósito del sitio</h4>
-       <p>proposito del tema seleccionado dinamizar el aprendizaje...
-           de los temas seleccionados </p>
+       <p>El objetivo es aprender qué es una regla de estilo CSS, 
+           cuál es su sintaxis CSS correcta, además aprenderemos a
+           utilizar los selectores, muy importantes para apuntar o 
+           seleccionar elementos HTML específicos y estilizarlos con CSS. </p>
 
            <article>
-               <h4>Tema 2</h4>
-               <img src="img/1.jpg" alt="Descripcion alternativa de la imagen">
+               <h4>Sintaxis y Selectores CSS, Interacción Humano Ordenador</h4>
+               <img src="img/Sintaxis_css.PNG" alt="Descripcion alternativa de la imagen">
+             
                <p>
-                   borrador del tema ver bibliografia
-               </p>
-               <p>ingresar la citas bibliograficas con url</p>
+                <h4>Qué es la sintaxis CSS</h4>   
+                Cuando dotamos de estilo a un elemento HTML debemos establecer las reglas
+                 de estilo que se le aplicarán. Imagina que en un documento HTML existen 
+                 una gran variedad de elementos como: textos, multimedia, formularios, 
+                 listas, enlaces, etc. todos estos elementos poseen un estilo ¿Verdad? 
+                 ¿Dónde van esos estilos? Generalmente en un documento CSS.</p>
+
+                 <h4>¿Qué es una regla CSS?</h4>
+                 <p>Una regla CSS es la forma adecuada de escribir una instrucción mediante 
+                    código CSS, es decir la manera en que se debe escribir código CSS para que este 
+                    sea interpretado y aplicado correctamente por el navegador web.</p>
+
+                    <h4>Partes de una regla CSS</h4>
+                    <p>Una regla CSS está formada principalmente por un sector y una declaración,
+                     dentro de la declaración se encuentran las propiedades con su respectivo valor.</p>
+
+                     <li>El selector.- el selector es quien indica a que elemento HTML se aplica el código CSS (el estilo)</li>
+                     <li>La propiedad.- es la característica que se desea definir, por ejemplo: color (el color).</li>
+                     <li>Valor.- es el valor que tomará la propiedad, por ejemplo: green (verde).</li>
+                     <li>Punto y coma (;).- una declaración siempre se debe terminar con un punto y coma simple (;)</li>
+
+                     <h4>Selectores de tipo</h4>
+                     <p>Los selectores de tipo en CSS se refieren a los electores que apuntan a un tipo de elemento HTML como puede ser:</p>
+
+                     <li>Los títulos: h1</li>
+                     <li>Los subtítulos: h2</li>
+                     <li>Párrafos: p</li>
+                     <li>Los enlaces: a</li>
+                     <li>Tablas: table</li>
+
+                     <h4>Selectores de id y clase</h4>
+                     <p>Este tipo de selectores en CSS apuntan a un elemento HTML identificado, es decir a un elemento HTML 
+                         que tenga el atributo id o class.</p>
+
+                        <h4>Selectores descendientes</h4>
+                        <p>Los selectores descendientes en CSS sirven para apuntar elementos que se 
+                            encuentran dentro otros elementos mayores, de esta manera se puede colocar 
+                            un estilo específico a un elemento que se encuentra contenido en otro elemento HTML mayor.
+                        
+                            Por ejemplo si tenemos un elemento  <em> dentro de un párrafo y este párrafo a la vez está dentro de una sección “primero” (bloque <div>)</p>
+
+                              <h1>Interacción Humano Ordenador</h1>
+                              <p>El proposito es ofrecer una panorámica de la evolución
+                                de las interfaces persona–ordenador centrándose en las
+                                tendencias actuales y en las alternativas al aún predominante modelo WIMP (Windows, Icons, Menus and
+                                Pointing devices).</p>
            </article>
            <article>
-               <h4>Tema 3</h4>
-               <p>consulta tema 4</p>
-
+               <h4>Bibliografía</h4>
+               <li>
+                Empezar con CSS - Aprende sobre desarrollo web | MDN. (2021, 17 septiembre).
+                 Https://Developer.Mozilla.Org/. https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/Getting_started
+            </li>
+            <li>Desarrolladoresweb.org. (2021, 10 julio). ▷Selectores CSS - Reglas y sintaxis. Desarrolladores web. https://desarrolladoresweb.org/css/selectores-css-reglas-y-sintaxis/</li>
+            <li>Ribera Turró, M. (2005). Evolución y tendencias en la interacción persona–ordenador.</li>
            </article>
     </section>
 </main>
 <hr>
 <h2>Mi mockup</h2>
-<img src="img/2.jpg" alt="este es el mockup">
+<img src="img/Mackup.PNG" alt="este es el mockup">
 <footer>
     <p>
-        Correo:maryluz.gomez@quipuz.com <br>
+        Correo:maryluz.gomez@quipux.com <br>
         Skype: maryluzgomezlopez <br>
         Fecha: Septiembre 2021
     </p>
